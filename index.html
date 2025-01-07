@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>VU22CSEN0100110</title>
+    <link rel="icon" type="image/x-icon" href="C:/Users/K H V/Pictures/Saved Pictures/webtask4.webp">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .row {
+            display: flex;
+            flex-shrink: 0;
+        }
+
+        .row1 {
+            height: 20%;
+        }
+
+        .row2 {
+            height: 20%;
+        }
+
+        .row3 {
+            height: 60%;
+        }
+
+        .col {
+            flex: 1;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+
+        .grid {
+            display: flex;
+         }
+
+        .grid div {
+            flex: 1;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            border: 1px solid #ccc;
+        }
+
+        .links div {
+            flex: 1;
+            border: 1px solid #ccc;
+        }
+
+        .description {
+            flex: 5;
+            border: 1px solid #ccc;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <!-- Row 1 -->
+    <div class="row row1">
+        <div class="col" id="logo">
+            <img src="C:/Users/K H V/Pictures/Screenshots/Screenshot 2024-12-10 154732.png" alt="Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        </div>
+        <div class="col" id="header">
+            <h2 style="color:gold;">Movies and Shows</h2>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+  <div class="row row2 grid">
+        <div id="home">
+            <a href="homeweb.html" target="description-frame">Home</a>
+        </div>
+        <div id="about">
+            <a href="loginweb.html" target="description-frame">Login</a>
+        </div>
+        <div id="contact">
+            <a href="registerweb.html" target="description-frame">Register</a>
+        </div>
+        <div id="privacy">
+            <a href="moviesweb.html" target="description-frame">Movies</a>
+        </div>
+        <div id="login">
+            <a href="showsweb.html" target="description-frame">Shows</a>
+        </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row row3">
+        <div class="links">
+            <div id="Services">
+                <a href="servicesweb.html" target="description-frame">Services</a>
+            </div>
+            </div>
+        <div class="description" id="description">
+            <h2 style="color:red;">Welcome</h2>
+            <p style="color:white;">To the woderful world of cinema!</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
